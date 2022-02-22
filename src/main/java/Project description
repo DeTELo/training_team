@@ -1,0 +1,14 @@
+*Training Team
+
+1.User Registration (name, birthday, id number).
+Save user, delete user.
+
+2.Checking Id( check id number).
+Save id, delete id.
+
+3.Training choice(Please , make a choice : yoga, power training, health aerobics, karate, swimming).
+Save user choice , room number , choice of coach, choice of training time.
+
+4.Training choice description(Description of your choice, workout duration, training time).
+
+5.Sign up for next workout (check id number, sign up).
