@@ -10,8 +10,10 @@ public class GetUser {
             ObjectInputStream ois = new ObjectInputStream(fis);
 
             User user1 = (User) ois.readObject();
+            UserB user2 = (UserB) ois.readObject();
 
-            System.out.println(user1);
+            System.out.println("ID and Name: " + user1);
+            System.out.println("Birthday: " + user2);
 
             ois.close();
         } catch (IOException | ClassNotFoundException e) {
